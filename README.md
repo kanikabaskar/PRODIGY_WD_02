@@ -1,5 +1,21 @@
-## Task 02
+# Task 02: Stopwatch Web Application
 
-To build a stopwatch web application, you can use HTML, CSS, and JavaScript. HTML is used to structure the elements of the application. By implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals. With these technologies and functionalities, you can create an interactive and user-friendly stopwatch web application.
+## Overview
+In this task, the goal is to build a functional stopwatch web application using HTML, CSS, and JavaScript. The primary focus is on implementing the JavaScript functionality to ensure that the stopwatch performs accurately and reliably. HTML is used to structure the application's elements, while CSS provides basic styling to enhance the user interface.
 
-For this task i mainly focuses on only JavaScript, yes the functionality that should work properly not on the html and css but it good enough i think so
+## Functionality
+The stopwatch application is designed to offer the following core features:
+- **Start/Stop**: Allows users to start and pause the stopwatch.
+- **Reset**: Resets the stopwatch to `00:00:00`.
+- **Lap Recording**: Records lap times, which can be done even when the stopwatch is paused.
+
+## Implementation Focus
+While the application includes HTML and CSS, the emphasis for this task is on JavaScript. The JavaScript code handles the logic behind the stopwatch, ensuring that the start, stop, reset, and lap functionalities work as intended. The objective is to create a reliable and accurate time measurement tool.
+
+### JavaScript Features:
+- **Time Calculation**: JavaScript is used to calculate minutes, seconds, and milliseconds accurately.
+- **Interval Management**: The application uses `setInterval` to update the display in real-time.
+- **Lap Functionality**: Users can record lap times at any point, whether the stopwatch is running or paused.
+
+## Conclusion
+This task demonstrates the ability to create an interactive and user-friendly stopwatch application, with a strong emphasis on the JavaScript code that powers the core functionalities. The HTML and CSS provide a basic but effective structure and styling, supporting the main goal of achieving a well-functioning stopwatch.
